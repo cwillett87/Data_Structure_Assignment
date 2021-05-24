@@ -13,7 +13,7 @@ class Year:
         i = 0
         while i < len(l1):
             if l1[i].number == 3:
-                print(f'{l1[i].name} has Pie!')
+                print(f'{l1[i].name},14 has Pie!')
                 self.months = tuple(l1)
             else:
                 self.months = tuple(l1)
