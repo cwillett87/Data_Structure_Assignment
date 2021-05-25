@@ -1,5 +1,6 @@
 from year import Year
 from locations import Locations
+from sweepstakes import Sweepstakes
 
 
 if __name__ == '__main__':
@@ -13,3 +14,7 @@ if __name__ == '__main__':
     #locations.future_locations('Cancun')
     #locations.future_locations('Scotland')
     #locations.show_locations()
+
+    #Problem 1C (Dictionary)
+    sweepstakes = Sweepstakes()
+    sweepstakes.winner()
