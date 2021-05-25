@@ -2,6 +2,7 @@ from year import Year
 from locations import Locations
 from sweepstakes import Sweepstakes
 from family import Family
+from linkedlist import LinkedList
 
 
 if __name__ == '__main__':
@@ -21,5 +22,17 @@ if __name__ == '__main__':
     #sweepstakes.winner()
 
     #Problem 2 (Dict of family members)
-    family = Family()
-    family.show_family()
+    #family = Family()
+    #family.show_family()
+
+    #Problem 3 (Linked List)
+    #linked_list = LinkedList()
+
+    #linked_list.append_node(55)
+    #linked_list.append_node(60)
+    #linked_list.append_node(65)
+
+    #linked_list.add_to_beginning(100)
+    #linked_list.contains_node(55)
+
+    #Problem 4 (Binary Tree)
