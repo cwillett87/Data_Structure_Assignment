@@ -1,6 +1,7 @@
 from year import Year
 from locations import Locations
 from sweepstakes import Sweepstakes
+from family import Family
 
 
 if __name__ == '__main__':
@@ -16,5 +17,9 @@ if __name__ == '__main__':
     #locations.show_locations()
 
     #Problem 1C (Dictionary)
-    sweepstakes = Sweepstakes()
-    sweepstakes.winner()
+    #sweepstakes = Sweepstakes()
+    #sweepstakes.winner()
+
+    #Problem 2 (Dict of family members)
+    family = Family()
+    family.show_family()
